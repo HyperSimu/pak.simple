@@ -42,9 +42,8 @@ tourist_percentage = 16
 # You can have up to ten entries, first is the year, next is the factor.
 # The increase between the year will increase first slow then fast towards
 # the final years
-locality_factor[0]=1835,1
-locality_factor[1]=1900,5
-locality_factor[2]=2100,10000
+locality_factor[0]=1900,5
+locality_factor[1]=2100,10000
 
 # A factory will be added as worker's destination to a town, if it has either
 # is within factory_worker_radius
@@ -76,7 +75,7 @@ beginner_price_factor = 1500
 
 # when a city reaches 2^n times of this number
 # then a factory is extended, or a new factory chain is spawned
-industry_increase_every = 2000
+industry_increase_every = 0
 
 # smallest distance between two adjacent factories
 factory_spacing = 9
@@ -126,14 +125,14 @@ factory_enforce_demand = 1
 ###################################display stuff##################################
 
 # show random objects to break uniformity (every n suited tiles)
-random_grounds_probability = 10
+random_grounds_probability = 10000
 
 # show random moving animals (n = every n suited tiles)
-random_wildlife_probability = 1000
+random_wildlife_probability = 10000
 
 # animate the water each intervall (if images available)
 # costs some time for the additional redraw (~1-3%)
-water_animation_ms = 250
+water_animation_ms = 0
 
 # player color can be fixed for several players or set totally random
 # in the latter case each player will get unique but random coloring
@@ -298,10 +297,10 @@ no_tree_climates = 130
 
 # if set, no trees will be created at all (save about 30% memory and
 # the season change will be much smoother on small machines)
-no_trees = 0
+no_trees = 1
 
 # if set, no lakes will be created at all
-no_lakes = 0
+no_lakes = 1
 
 ###################################other stuff##################################
 
@@ -342,11 +341,11 @@ river_type[0] = river
 river_type[1] = river2
 
 # start with 16 (looks nice on not too large maps)
-river_number = 16
+river_number = 10
 
 # river min length (not too short)
 river_min_length = 20
 
 # river max length (not too long?)
-river_max_length = 512
+river_max_length = 128
 
