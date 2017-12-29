@@ -1,0 +1,16 @@
+Obj=building
+Name=Cityhall_test
+Type=tow
+Build_Time=1
+Passengers=16
+NoConstruction=1
+needs_ground=1
+climates=tropic,mediterran,temperate,tundra,rocky,arctic
+dims=2,2,1
+BackImage[0][0][0][0][0][0]=cityhall.0.0
+BackImage[0][0][0][1][0][0]=cityhall.0.1
+BackImage[0][0][1][0][0][0]=cityhall.0.2
+BackImage[0][0][1][1][0][0]=cityhall.1.0
+BackImage[0][1][0][0][0][0]=cityhall.1.1
+BackImage[0][1][0][1][0][0]=cityhall.1.2
+BackImage[0][1][1][0][0][0]=cityhall.2.0
